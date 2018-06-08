@@ -5407,11 +5407,25 @@ body {
 .cid-qUi8SM1keB P {
   color: #149dcc;
 }
-.cid-qUklAlamh6 {
-  background-image: url("../../../assets/images/construccion-701x397.png");
+.cid-qUoriVKGMC {
+  padding-top: 90px;
+  padding-bottom: 90px;
+  background-image: url("../../../assets/images/background4.jpg");
 }
-.cid-qUklAlamh6 .mbr-section-subtitle {
-  letter-spacing: .2rem;
+@media (min-width: 992px) {
+  .cid-qUoriVKGMC .mbr-figure {
+    padding-right: 4rem;
+  }
+}
+@media (max-width: 991px) {
+  .cid-qUoriVKGMC .mbr-figure {
+    padding-bottom: 3rem;
+  }
+}
+@media (max-width: 767px) {
+  .cid-qUoriVKGMC .mbr-text {
+    text-align: center;
+  }
 }
 .cid-qUocqNvSuF {
   padding-top: 90px;
@@ -5439,5 +5453,29 @@ body {
   text-align: left;
 }
 .cid-qUod2zCodq H3 {
+  text-align: left;
+}
+.cid-qUotLbiqeH {
+  background-color: #e1cad0;
+}
+.cid-qUotLbiqeH .form-container {
+  transition: all .2s;
+  border: 1px solid #ffffff;
+  padding: 1rem;
+}
+.cid-qUotLbiqeH .input-group-btn {
+  justify-content: center;
+}
+@media (min-width: 768px) {
+  .cid-qUotLbiqeH .content-container {
+    padding-right: 5rem;
+  }
+}
+.cid-qUotLbiqeH H1 {
+  color: #7f1933;
+}
+.cid-qUotLbiqeH .mbr-text,
+.cid-qUotLbiqeH .mbr-section-btn {
+  color: #cc2952;
   text-align: left;
 }
